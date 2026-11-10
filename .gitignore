@@ -1,0 +1,32 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno y secretos
+.env
+
+# Base de datos local y archivos auxiliares de SQLite
+database/*.db
+database/*.db-wal
+database/*.db-shm
+database/*.db-journal
+servidor/database/*.db
+servidor/database/*.db-wal
+servidor/database/*.db-shm
+servidor/database/*.db-journal
+
+# Registros
+logs/
+*.log
+npm-debug.log*
+
+# Archivos del sistema y del editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+
+# Pruebas de Postman
+Postman
+
+# Archivos de inicio
+scripts
